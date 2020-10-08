@@ -1,0 +1,11 @@
+Zach Morrissey
+Willem Schreuder
+CSCI 4229
+24 September 2020
+
+
+Running the code: This program can be run on linux using the provided makefile with make clean, make, and compiled on windows with gcc -Wall -o hw3 FD.c -lglut32cu -lglu32 -lopengl32. It can be viewed from different angles using the arrow keys, and the fov is adjusted with the + and - keys.
+
+Borrowed Code: I borrowed a good amount from the examples again since it made things much easier. Specifically, I borrowed the project, sphere2, and cube functions from ex8 and ex9 along with some display function code to make them work.
+
+Time Spent: I spent a long time trying to draw the objects in the scene, the hard way. I was drawing every vertex every time, and could have used functions like cube to save myself from repeating steps. So, I ended up scrapping a bunch of code and used cube and some others to help draw my objects. If I had more time (and energy for that matter) I would definitely put effort into writing some more efficient helper functions, as well as investing some time to produce a more complex object. I plan to keep iterating on this assignment for my project. In total, I spent close to 10 hours on this assignment. A lot of it was just struggling with a non intuitive process of building objects. I definitely learned a lot this assignment, and will have a better idea of where to start on future projects of the same nature.
